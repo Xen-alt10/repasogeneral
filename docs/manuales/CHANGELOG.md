@@ -8,7 +8,7 @@ y este proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased] 2026-10-15
 
 ### Added
-- [InformeEEST1_LPR2026_ACT06_G99_Informe_v1.0.0](https://github.com/Xen-alt10/repasogeneral/tree/main/docs)
+- [InformeEEST1_LPR2026_ACT06_G99_Informe_v1.0.0](https://github.com/Xen-alt10/repasogeneral/tree/main/docs) Se agrego el archivo base para el informe APA 7° edición
 
 ## [1.1.0]  2026-10-21
 
