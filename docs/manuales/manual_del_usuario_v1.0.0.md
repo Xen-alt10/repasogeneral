@@ -63,6 +63,7 @@ Valores actuales -> X: 500 | Y: 100
 
 ## Estructura del main.cpp()
 
+```
 main()
  ├── Banner de identificación
  ├── RETO 1 → llama a sumaRecursiva(5)
@@ -70,6 +71,7 @@ main()
  │            └── break al encontrar (optimización)
  ├── RETO 3 → llama a intercambiarValores(&x, &y)
  └── return 0   
+```
 
 ## Variables del main.cpp()
 
