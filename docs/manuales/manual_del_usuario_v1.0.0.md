@@ -59,11 +59,44 @@ Valores previos  -> X: 100 | Y: 500
 Valores actuales -> X: 500 | Y: 100
 =====================================================   
 ```
+- La dirección hexadecimal varía por cada ejecución
+
+## Estructura del main.cpp()
+
+main()
+ ├── Banner de identificación
+ ├── RETO 1 → llama a sumaRecursiva(5)
+ ├── RETO 2 → Búsqueda lineal en vectorDatos[10]
+ │            └── break al encontrar (optimización)
+ ├── RETO 3 → llama a intercambiarValores(&x, &y)
+ └── return 0   
+
+## Variables del main.cpp()
+
+| Variable | Tipo | Valor inicial | Propósito |
+|----------|------|---------------|-----------|
+| `num` | `int` | `5` | Límite para la suma recursiva |
+| `TAM` | `const int` | `10` | Tamaño del arreglo |
+| `vectorDatos` | `int[10]` | `{12,45,78,90,122,5,18,33,67,99}` | Datos para búsqueda |
+| `numeroBuscar` | `int` | `18` | Valor objetivo |
+| `hallado` | `bool` | `false` | Flag de éxito en búsqueda |
+| `x`, `y` | `int` | `100`, `500` | Variables para intercambio |
+
+
+## Conceptos Repasados
+
+| Concepto | Dónde se aplica |
+|----------|----------------|
+| **Recursividad** (caso base + caso recursivo) | Reto 1 |
+| **Memoria contigua** (arreglos, índices, `&`) | Reto 2 |
+| **Búsqueda secuencial** O(n) con `break` | Reto 2 |
+| **Punteros** (`*` desreferencia, `&` dirección) | Reto 3 |
+| **Paso por referencia** (modificación in place) | Reto 3 |
+
 
 ## Codigo Fuente Completo
 
 ```
-
 /*
    ====================================================================
    Materia: Laboratorio de Programación (LPR) — 5°
@@ -134,6 +167,6 @@ void intercambiarValores(int* ptrA, int* ptrB) {
     *ptrA = *ptrB;
     *ptrB = temporal;
 }
-
 ```
+
 
