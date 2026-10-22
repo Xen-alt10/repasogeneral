@@ -9,13 +9,13 @@ y este proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 
 | Version      | Descripcion del cambio    | Autor          | Estado  |
 | :----------: | :-----------------------: | :------------: | :-----: |
-| :----------: | :-----------------------: | Alexander Veit | :-----: | 
+| 1.0.0        | Creacion y Escritura de Documento | Alexander Veit | RELEASE | 
 
 ### Manual del usuario
 
 | Version      | Descripcion del cambio    | Autor          | Estado  |
 | :----------: | :-----------------------: | :------------: | :-----: |
-| :----------: | :-----------------------: | Alexander Veit | :-----: | 
+| 1.0.0        | Creacion y Escritura de Documento | Alexander Veit | RELEASE | 
 
 ### Informe Académico APA N°7 edición
 
