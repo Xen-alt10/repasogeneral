@@ -41,6 +41,8 @@ g++ -std=c++17 -Wall -Wextra -o taller src/main.cpp
 
 ```
 ## Salida Esperada 
+
+```
 =====================================================
   TALLER INTEGRADOR REPASO - ESTUDIANTE: Alexander Veit
 =====================================================
@@ -56,6 +58,7 @@ Suma acumulada de 1 hasta 5: 15
 Valores previos  -> X: 100 | Y: 500
 Valores actuales -> X: 500 | Y: 100
 =====================================================   
+```
 
 ## Codigo Fuente Completo
 
